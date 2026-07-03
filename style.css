@@ -122,6 +122,7 @@ p.name{
     display:grid;
     grid-column: 2/4;
     grid-template-columns: 3fr 256px;
+    padding: 0 8px 0 8px;
     /* grid-template-rows: 2fr 2fr; */ 
 }
 .project-container,.announcement-container,.trend-container,.project{
@@ -131,7 +132,7 @@ p.name{
 }
 .project-container{
     grid-row: 1/3;
-    grid-template-rows: 1.5rem auto;
+    grid-template-rows: 2rem auto;
     /* grid-template-columns: repeat(auto-fill,1fr); */
 }
 .project-container >p.type{
@@ -151,7 +152,7 @@ p.name{
     padding: 4px;
     grid-template-rows: 200px 2rem;
     background-color: #fafafa;
-    box-shadow: 1px 1px 2px #0b0b0b;
+    box-shadow: none;
 }
 #projects{
     
@@ -164,7 +165,7 @@ p.name{
 .project p,h5{
     margin:4px 0;
 }
-p.type{
+h2.type{
     margin:4px 0;
    
 }
@@ -191,4 +192,6 @@ p.type{
 #announcements,#trend{
     padding-left: 4px;
     background-color: #fbfbfb;
+    border-radius: 8px;
+    box-shadow: none;
 }
